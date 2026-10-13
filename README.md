@@ -28,20 +28,25 @@ The application is styled with a premium, warm artisan aesthetic (`#FDFBF7` off-
 
 ## 🎬 Video Showcase & Demonstration
 
-A professional 45-second high-definition product video is included directly in the repository:
-- **Video File:** [`localbiz_copilot_demo.mp4`](localbiz_copilot_demo.mp4) (1080p, 30fps, H.264/AAC, synchronized sound design)
+A professional 62-second Full HD product video is included directly in the repository, featuring real application demo captures, spoken neural voiceover narration, lo-fi soundtrack audio ducking, and synchronized subtitles:
+- **Video File:** [`localbiz_copilot_demo.mp4`](localbiz_copilot_demo.mp4) (1080p, 30fps, H.264/AAC, spoken narration & lo-fi audio mix)
+- **Live Demo Captures:** [`demo_captures/`](demo_captures/) (high-resolution screenshots of all 6 live application views)
 - **Production Script & Storyboard:** [`VIDEO_PRODUCTION_SCRIPT.md`](VIDEO_PRODUCTION_SCRIPT.md)
-- **Automated Render Pipeline:** [`scripts/generate_video.py`](scripts/generate_video.py)
+- **Automated Render Pipeline:** [`scripts/generate_video.py`](scripts/generate_video.py) & [`scripts/capture_demo.py`](scripts/capture_demo.py)
 
 ### Video Chapters:
-1. **00:00 - 00:09 | Chapter 1: The 4:30 AM Reality** — Morning bakery chaos, artisan sourdough vs inventory guesswork.
-2. **00:09 - 00:19 | Chapter 2: Deterministic Intelligence** — Clean dashboard, zero-assumption financial guardrail.
-3. **00:19 - 00:29 | Chapter 3: Grounded AI Morning Briefing** — Fact vs. strategy separation on expiring mascarpone tarts.
-4. **00:29 - 00:38 | Chapter 4: Bilingual Marketing Studio** — One-click Instagram & Hindi WhatsApp broadcast copywriting.
-5. **00:38 - 00:45 | Chapter 5: 100% On-Premise Privacy** — Trade secrets preserved on device; 28/28 Vitest, 7/7 Pytest, and 10/10 Benchmark passed.
+1. **00:00 - 00:12 | Chapter 1: The 4:30 AM Reality** — Morning bakery chaos, fresh loaves cooling, artisan craft vs inventory guesswork.
+2. **00:12 - 00:24 | Chapter 2: Live Dashboard & Zero-Assumption** — Real browser demo of dashboard metrics, reorder alerts, and margin guardrail.
+3. **00:24 - 00:35 | Chapter 3: Grounded AI Morning Briefing** — Separation between verified inventory facts and actionable afternoon flash specials.
+4. **00:35 - 00:47 | Chapter 4: Bilingual Marketing Studio** — Real browser demo of Instagram captions with hashtags and Devanagari Hindi WhatsApp broadcasts.
+5. **00:47 - 01:02 | Chapter 5: 100% On-Premise Privacy** — Trade secrets preserved on device; 28/28 Vitest, 7/7 Pytest, and 10/10 Benchmark passed.
 
-To re-render or customize the video at any time:
+To re-capture screens and re-render the video at any time:
 ```bash
+# 1. Capture real application screens (Next.js server on :3000)
+.\ai_service\.venv\Scripts\python.exe scripts/capture_demo.py
+
+# 2. Render broadcast MP4 with voiceover and audio ducking
 .\ai_service\.venv\Scripts\python.exe scripts/generate_video.py
 ```
 
