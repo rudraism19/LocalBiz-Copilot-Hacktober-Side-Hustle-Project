@@ -6,6 +6,8 @@
 [![Model License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Next.js](https://img.shields.io/badge/Next.js-15%20App%20Router-black.svg)](https://nextjs.org)
 
+![LocalBiz Copilot Banner](cover.jpg)
+
 **LocalBiz Copilot** is a production-grade, open-weight AI business assistant engineered specifically for **independent bakeries and cafés**.
 
 Unlike generic chat tools that invent numbers or hallucinate recipes, LocalBiz Copilot connects deterministic business accounting with open-weight language models to convert structured inventory, sales, and shelf-life records into grounded daily briefings, verified profit insights, and bilingual (English/Hindi) promotional campaigns.

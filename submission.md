@@ -3,6 +3,8 @@
 # LocalBiz Copilot 🥐☕
 ### The Open-Weight AI Business Co-Pilot for Independent Bakeries & Cafés
 
+![LocalBiz Copilot Cover](cover.jpg)
+
 ---
 
 ## What I Built
