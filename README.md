@@ -26,6 +26,27 @@ The application is styled with a premium, warm artisan aesthetic (`#FDFBF7` off-
 
 ---
 
+## 🎬 Video Showcase & Demonstration
+
+A professional 45-second high-definition product video is included directly in the repository:
+- **Video File:** [`localbiz_copilot_demo.mp4`](localbiz_copilot_demo.mp4) (1080p, 30fps, H.264/AAC, synchronized sound design)
+- **Production Script & Storyboard:** [`VIDEO_PRODUCTION_SCRIPT.md`](VIDEO_PRODUCTION_SCRIPT.md)
+- **Automated Render Pipeline:** [`scripts/generate_video.py`](scripts/generate_video.py)
+
+### Video Chapters:
+1. **00:00 - 00:09 | Chapter 1: The 4:30 AM Reality** — Morning bakery chaos, artisan sourdough vs inventory guesswork.
+2. **00:09 - 00:19 | Chapter 2: Deterministic Intelligence** — Clean dashboard, zero-assumption financial guardrail.
+3. **00:19 - 00:29 | Chapter 3: Grounded AI Morning Briefing** — Fact vs. strategy separation on expiring mascarpone tarts.
+4. **00:29 - 00:38 | Chapter 4: Bilingual Marketing Studio** — One-click Instagram & Hindi WhatsApp broadcast copywriting.
+5. **00:38 - 00:45 | Chapter 5: 100% On-Premise Privacy** — Trade secrets preserved on device; 28/28 Vitest, 7/7 Pytest, and 10/10 Benchmark passed.
+
+To re-render or customize the video at any time:
+```bash
+.\ai_service\.venv\Scripts\python.exe scripts/generate_video.py
+```
+
+---
+
 ## 🏛️ System Architecture
 
 ```mermaid
