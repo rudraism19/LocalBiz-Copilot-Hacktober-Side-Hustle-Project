@@ -1,0 +1,273 @@
+{
+  "products": [
+    {
+      "id": "prod-sourdough",
+      "name": "Artisan Country Sourdough Loaf",
+      "category": "bread",
+      "sellingPrice": 8.5,
+      "unitCost": 2.1,
+      "currentStock": 18,
+      "reorderThreshold": 12,
+      "expiryDate": "2026-10-16",
+      "description": "36-hour slow cold fermentation with organic stoneground flours and caramelized blistered crust.",
+      "createdAt": "2026-10-10T08:00:00Z",
+      "updatedAt": "2026-10-13T08:00:00Z"
+    },
+    {
+      "id": "prod-croissant",
+      "name": "Almond Twice-Baked Croissant",
+      "category": "pastry",
+      "sellingPrice": 5.25,
+      "unitCost": 1.65,
+      "currentStock": 4,
+      "reorderThreshold": 10,
+      "expiryDate": "2026-10-14",
+      "description": "Flaky French butter croissant steeped in vanilla simple syrup, filled and topped with rich frangipane and toasted almonds.",
+      "createdAt": "2026-10-10T08:00:00Z",
+      "updatedAt": "2026-10-13T08:00:00Z"
+    },
+    {
+      "id": "prod-cardamom-brioche",
+      "name": "Cardamom & Saffron Swirl Bun",
+      "category": "pastry",
+      "sellingPrice": 4.75,
+      "unitCost": 1.4,
+      "currentStock": 8,
+      "reorderThreshold": 10,
+      "expiryDate": "2026-10-15",
+      "description": "Swedish style braided fika bun infused with freshly crushed green cardamom pods and Kashmiri saffron glaze.",
+      "createdAt": "2026-10-10T08:00:00Z",
+      "updatedAt": "2026-10-13T08:00:00Z"
+    },
+    {
+      "id": "prod-cinnamon-roll",
+      "name": "Glazed Spiced Cinnamon Roll",
+      "category": "pastry",
+      "sellingPrice": 4.95,
+      "unitCost": 1.25,
+      "currentStock": 22,
+      "reorderThreshold": 8,
+      "expiryDate": "2026-10-15",
+      "description": "Fluffy brioche roll loaded with brown sugar and organic Ceylon cinnamon, finished with cream cheese icing.",
+      "createdAt": "2026-10-10T08:00:00Z",
+      "updatedAt": "2026-10-13T08:00:00Z"
+    },
+    {
+      "id": "prod-strawberry-tart",
+      "name": "Fresh Strawberry Mascarpone Tart",
+      "category": "pastry",
+      "sellingPrice": 6.5,
+      "unitCost": 2.3,
+      "currentStock": 5,
+      "reorderThreshold": 6,
+      "expiryDate": "2026-10-14",
+      "description": "Pâte sablée crust with Madagascar vanilla bean mascarpone mousse and fresh local strawberries.",
+      "createdAt": "2026-10-12T07:00:00Z",
+      "updatedAt": "2026-10-13T07:00:00Z"
+    },
+    {
+      "id": "prod-matcha-latte",
+      "name": "Ceremonial Uji Matcha Latte",
+      "category": "beverage",
+      "sellingPrice": 6.25,
+      "unitCost": 1.75,
+      "currentStock": 45,
+      "reorderThreshold": 15,
+      "expiryDate": null,
+      "description": "Whisked first-harvest Kyoto Uji ceremonial matcha served with steamed organic oat milk or dairy.",
+      "createdAt": "2026-10-10T08:00:00Z",
+      "updatedAt": "2026-10-13T08:00:00Z"
+    },
+    {
+      "id": "prod-espresso-single-origin",
+      "name": "Single-Origin Ethiopian Pour-Over",
+      "category": "beverage",
+      "sellingPrice": 5.5,
+      "unitCost": 1.1,
+      "currentStock": 60,
+      "reorderThreshold": 20,
+      "expiryDate": null,
+      "description": "Lightly roasted Yirgacheffe beans with notes of jasmine, bergamot, and sweet peach.",
+      "createdAt": "2026-10-10T08:00:00Z",
+      "updatedAt": "2026-10-13T08:00:00Z"
+    },
+    {
+      "id": "prod-focaccia-rosemary",
+      "name": "Sea Salt & Rosemary Olive Focaccia",
+      "category": "savory",
+      "sellingPrice": 7,
+      "unitCost": null,
+      "currentStock": 6,
+      "reorderThreshold": 8,
+      "expiryDate": "2026-10-14",
+      "description": "Golden, dimpled Ligurian style focaccia soaked in extra virgin olive oil, topped with fresh rosemary sprigs and flaky Maldon salt.",
+      "createdAt": "2026-10-12T08:00:00Z",
+      "updatedAt": "2026-10-13T08:00:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-101",
+      "productId": "prod-sourdough",
+      "productName": "Artisan Country Sourdough Loaf",
+      "quantitySold": 4,
+      "sellingPrice": 8.5,
+      "discount": 0,
+      "totalRevenue": 34,
+      "unitCostSnapshot": 2.1,
+      "estimatedGrossProfit": 25.6,
+      "timestamp": "2026-10-13T08:15:00Z",
+      "notes": "Morning rush - neighborhood regulars"
+    },
+    {
+      "id": "tx-102",
+      "productId": "prod-croissant",
+      "productName": "Almond Twice-Baked Croissant",
+      "quantitySold": 3,
+      "sellingPrice": 5.25,
+      "discount": 0,
+      "totalRevenue": 15.75,
+      "unitCostSnapshot": 1.65,
+      "estimatedGrossProfit": 10.8,
+      "timestamp": "2026-10-13T08:42:00Z",
+      "notes": "Coffee pairing bundle"
+    },
+    {
+      "id": "tx-103",
+      "productId": "prod-matcha-latte",
+      "productName": "Ceremonial Uji Matcha Latte",
+      "quantitySold": 5,
+      "sellingPrice": 6.25,
+      "discount": 2,
+      "totalRevenue": 29.25,
+      "unitCostSnapshot": 1.75,
+      "estimatedGrossProfit": 20.5,
+      "timestamp": "2026-10-13T09:10:00Z",
+      "notes": "Student morning study group"
+    },
+    {
+      "id": "tx-104",
+      "productId": "prod-cardamom-brioche",
+      "productName": "Cardamom & Saffron Swirl Bun",
+      "quantitySold": 4,
+      "sellingPrice": 4.75,
+      "discount": 0,
+      "totalRevenue": 19,
+      "unitCostSnapshot": 1.4,
+      "estimatedGrossProfit": 13.4,
+      "timestamp": "2026-10-13T10:05:00Z",
+      "notes": "Mid-morning fika break"
+    },
+    {
+      "id": "tx-105",
+      "productId": "prod-espresso-single-origin",
+      "productName": "Single-Origin Ethiopian Pour-Over",
+      "quantitySold": 6,
+      "sellingPrice": 5.5,
+      "discount": 0,
+      "totalRevenue": 33,
+      "unitCostSnapshot": 1.1,
+      "estimatedGrossProfit": 26.4,
+      "timestamp": "2026-10-13T10:45:00Z",
+      "notes": "Coffee tastings"
+    },
+    {
+      "id": "tx-106",
+      "productId": "prod-focaccia-rosemary",
+      "productName": "Sea Salt & Rosemary Olive Focaccia",
+      "quantitySold": 2,
+      "sellingPrice": 7,
+      "discount": 0,
+      "totalRevenue": 14,
+      "unitCostSnapshot": null,
+      "estimatedGrossProfit": null,
+      "timestamp": "2026-10-13T11:30:00Z",
+      "notes": "Lunch take-out"
+    }
+  ],
+  "brandProfile": {
+    "businessName": "WarmCrust Artisan Bakery & Café",
+    "category": "Artisan Bakery & Specialty Coffee",
+    "location": "Downtown Market Square, Sector 4",
+    "preferredLanguage": "en",
+    "brandTone": "warm_artisan",
+    "targetAudience": "Local residents, weekend brunchers, office workers seeking fresh sourdough, Viennoiserie, and specialty pour-over coffee.",
+    "productsAndDifferentiators": "Naturally fermented 36-hour wild sourdough, French cultured butter croissants, single-origin estate coffee, seasonal cardamom buns with no artificial preservatives.",
+    "monthlyPromoBudget": 150,
+    "currency": "USD"
+  },
+  "briefings": [
+    {
+      "id": "briefing-seed-01",
+      "date": "2026-10-13",
+      "keyObservations": [
+        "Morning sales generated $145.00 across 24 units sold, led by hot beverages and sourdough loaves.",
+        "Almond Croissants have only 4 units remaining against a reorder threshold of 10, creating stockout risk before afternoon tea.",
+        "Fresh Strawberry Mascarpone Tarts (5 units) and Rosemary Focaccia (6 units) reach expiration tomorrow (Oct 14).",
+        "Unit cost data is missing for Sea Salt & Rosemary Olive Focaccia, preventing verified gross profit estimation for those sales."
+      ],
+      "productsNeedingAttention": [
+        {
+          "productId": "prod-croissant",
+          "productName": "Almond Twice-Baked Croissant",
+          "urgency": "high",
+          "observedFact": "4 units remaining in stock; reorder threshold is 10; expiration date is 2026-10-14.",
+          "reason": "Risk of afternoon stockout during peak 3-5 PM café hours.",
+          "suggestedAction": "Bake a secondary mini-batch or reserve remaining croissants for sit-in coffee pairings."
+        },
+        {
+          "productId": "prod-strawberry-tart",
+          "productName": "Fresh Strawberry Mascarpone Tart",
+          "urgency": "high",
+          "observedFact": "5 units currently in stock with expiry date tomorrow (2026-10-14).",
+          "reason": "Short shelf life of fresh dairy mascarpone and berries could result in inventory spoilage.",
+          "suggestedAction": "Launch an afternoon tea special offering 15% off when paired with any hot beverage."
+        },
+        {
+          "productId": "prod-focaccia-rosemary",
+          "productName": "Sea Salt & Rosemary Olive Focaccia",
+          "urgency": "medium",
+          "observedFact": "Unit cost is unrecorded in system; 6 units in stock; expires 2026-10-14.",
+          "reason": "Cannot compute true contribution margin or discount safety without cost of goods sold.",
+          "suggestedAction": "Input ingredient & packaging cost in inventory settings before running lunch promotions."
+        }
+      ],
+      "suggestedActions": [
+        {
+          "title": "Run 2 PM Flash Bundle for Fresh Strawberry Tarts",
+          "rationale": "5 tarts expire on Oct 14. Clearing them today at $5.50 (vs $6.50 retail) recovers $27.50 revenue and avoids complete write-off.",
+          "expectedOutcome": "Clear all 5 tarts before close while generating incremental beverage sales.",
+          "riskOrConsideration": "Ensure discount does not cannibalize higher-margin cinnamon rolls."
+        },
+        {
+          "title": "Update Unit Cost for Rosemary Focaccia",
+          "rationale": "Focaccia represents savory lunch sales, but financial analytics cannot calculate margin without ingredient cost.",
+          "expectedOutcome": "Accurate profit metrics on dashboard and validated promo pricing."
+        }
+      ],
+      "marketingOpportunities": [
+        {
+          "angle": "Afternoon Fika & Strawberry Tart Treat",
+          "targetItem": "Fresh Strawberry Mascarpone Tart",
+          "channel": "instagram",
+          "suggestedTiming": "1:30 PM - 2:00 PM"
+        },
+        {
+          "angle": "VIP WhatsApp Alert: Limited Almond Croissant Batch",
+          "targetItem": "Almond Twice-Baked Croissant",
+          "channel": "whatsapp",
+          "suggestedTiming": "2:15 PM"
+        }
+      ],
+      "missingInfoAndUncertainties": [
+        "Unit cost missing for Sea Salt & Rosemary Olive Focaccia.",
+        "Afternoon foot traffic volume is estimated based on historical trends; weather conditions could affect walk-ins."
+      ],
+      "generatedAt": "2026-10-13T07:30:00Z",
+      "modelUsed": "Qwen/Qwen2.5-1.5B-Instruct (open-weight, Apache 2.0)",
+      "inferenceProvider": "local_transformers",
+      "latencyMs": 1420
+    }
+  ],
+  "marketingHistory": []
+}
